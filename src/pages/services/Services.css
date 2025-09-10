@@ -1,0 +1,73 @@
+.services {
+  padding-top: 84px; /* altura del navbar */
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0b1220, #0b1324 40%, #0b1220);
+  color: #e5e7eb;
+}
+
+.container {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  text-align: center;
+  padding: 72px 16px 40px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: clamp(32px, 6vw, 52px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 14px auto 32px;
+  max-width: 800px;
+  color: #94a3b8;
+  font-size: clamp(14px, 2vw, 18px);
+}
+
+/* Grid de servicios */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 8px;
+}
+
+@media (max-width: 980px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .grid { grid-template-columns: 1fr; }
+}
+
+.card {
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  padding: 18px;
+  text-align: left;
+}
+
+.card .icon {
+  width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border-radius: 10px;
+  background: rgba(255,255,255,.06);
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 14px;
+}
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-256 -256 512 512">
+  <title>React Logo (transparent)</title>
+  <desc>Simple recreation of the React logo using three ellipses and a central circle.</desc>
+  <g fill="none" stroke="#61DAFB" stroke-width="24">
+    <ellipse rx="190" ry="75"/>
+    <ellipse rx="190" ry="75" transform="rotate(60)"/>
+    <ellipse rx="190" ry="75" transform="rotate(-60)"/>
+  </g>
+  <circle r="35" fill="#61DAFB"/>
+</svg>

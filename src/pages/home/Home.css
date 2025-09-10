@@ -1,0 +1,45 @@
+.home {
+  padding-top: 84px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0b1220, #0b1324 40%, #0b1220);
+  color: #e5e7eb;
+}
+
+.home .container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 72px 16px 40px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: clamp(32px, 6vw, 52px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 14px auto 22px;
+  max-width: 720px;
+  color: #94a3b8;
+  font-size: clamp(14px, 2vw, 18px);
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.imagen {
+  display: block;
+  margin: 24px auto 0;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+}

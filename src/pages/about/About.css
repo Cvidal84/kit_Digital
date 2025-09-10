@@ -1,0 +1,45 @@
+.about {
+  padding-top: 84px; /* altura del navbar */
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0b1220, #0b1324 40%, #0b1220);
+  color: #e5e7eb;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero {
+  padding: 72px 0 40px;
+}
+
+.title {
+  font-size: clamp(32px, 6vw, 52px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 14px auto 22px;
+  max-width: 720px;
+  color: #94a3b8;
+  font-size: clamp(14px, 2vw, 18px);
+}
+
+/* Imágenes */
+.images {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech-img {
+  max-width: 45%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+}
